@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 
-// Starter sample products (can add more)
 export const sampleProducts = [
   { id: 1, name: 'Apple', price: 'KES 50', category: 'Fruits', inStock: true },
   { id: 2, name: 'Milk', price: 'KES 120', category: 'Dairy', inStock: true },

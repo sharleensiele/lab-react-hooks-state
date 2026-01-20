@@ -14,7 +14,6 @@ const App = () => {
     }
   };
 
-  // Extract unique categories dynamically
   const categories = ['all', ...new Set(sampleProducts.map(p => p.category))];
 
   const appStyle = {
